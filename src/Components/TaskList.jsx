@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaTrashCan } from "react-icons/fa6";
 
-const TaskList = ({ tasks, toggleTaskComplete, onDelete }) => {
+const TaskList = ({ tasks, toggleTaskComplete, onDelete, filteredTasks}) => {
 
   if (tasks.length === 0) {
     return (
